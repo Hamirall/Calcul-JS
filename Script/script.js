@@ -1,18 +1,15 @@
 function typeAvion() {
-	
 	var recup_avion1 = document.getElementById('CRK').checked;
 	var recup_avion2 = document.getElementById('CR7').checked;
 
 	if (recup_avion1 == true) {
-		
 		CRK();
 	} else if (recup_avion2 == true) {
 		
 		CR7();
 	} else {
-		alert("Choisissez un avion");
+		alert("Vous n'avez pas choisi d'avion");
 	}
-	
 
 }
 
@@ -112,18 +109,19 @@ function recupNbr(recup_soute1,recup_soute2,recup_soute6,soute1,soute2,soute6) {
 
 function affichage (resultat, soute1, soute2, soute6) {
 
-	
-	var affiche_soute1 = '<p>soute1</p>';
-	document.getElementById('maDiv1').innerHTML=soute1;
-
-	var affiche_soute2 = '<p>soute2</p>';
-	document.getElementById('maDiv2').innerHTML=soute2;
-
-	var affiche_soute6 = '<p>sout6</p>';
-	document.getElementById('maDiv3').innerHTML=soute6;
-
 	var affiche_resul = '<p>resultat</p>';
-	document.getElementById('maDiv').innerHTML=resultat;
+	document.getElementById('resultat').innerHTML=resultat;
+
+	var affiche_soute1 = '<p>soute1</p>';
+	document.getElementById('soute1').innerHTML=soute1;
+
+	// var affiche_soute2 = '<p>soute2</p>';
+	// document.getElementById('soute2').innerHTML=soute2;
+
+	// var affiche_soute6 = '<p>sout6</p>';
+	// document.getElementById('soute3').innerHTML=soute6;
+
+	
 
 }
 

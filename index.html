@@ -3,58 +3,77 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Calcul</title>
+	<link rel="icon" href="img/icone/plane.ico">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<title>Calcul correction</title>
 </head>
 <body>
 	
-	<div class="CRK">
+	<h1>Calcul de correction</h1>
+
+
+	<div class="aligne-box">
 		<label>CRK</label>
-		<input type="radio" id="CRK">
+		<input type="checkbox" id="CRK">
 		
 		<label>Plus de 33 tonnes</label>
-		<input type="radio" id="superieur1">
+		<input type="checkbox" id="superieur1">
 		
 		<label>inférieur ou égal à 33 tonnes</label>
-		<input type="radio" id="sup-egal1">
+		<input type="checkbox" id="sup-egal1">
 	</div>
+	
 
-	<div class="CR7">
+	<div class="aligne-box">
 		<label>CR7</label>
-		<input type="radio" id="CR7">
+		<input type="checkbox" id="CR7">
 
 		<label>Plus de 25 tonnes</label>
-		<input type="radio" id="superieur2">
+		<input type="checkbox" id="superieur2">
 		
 		<label>inférieur ou égal à 25 tonnes</label>
-		<input type="radio" id="sup-egal2">
-	</div>
-
-	<label>Soute 1</label>
-	<input type="number"  id="soute1" name="soute-inp1" value="20">
-
-	<label>Soute 2</label>
-	<input type="number"  id="soute2" name="soute-inp2" value="20">
-
-	<label>Soute 6</label>
-	<input type="number"  id="soute6" name="soute-inp6" value="20">
-
-	<button type="submit" onclick="typeAvion()">Récupérer</button>
-
-	<div id="maDiv1">
-	</div>
-
-	<div id="maDiv2">
-	</div>
-
-	<div id="maDiv3">
+		<input type="checkbox" id="sup-egal2">
 	</div>
 
 
-	<div id="maDiv">
+	<div class="d-inline">
+		<div class="centre">
+			<label>Soute 1</label>
+			<input type="number"  id="soute1" name="soute-inp1">	
+					
+			<label>Soute 2</label>
+			<input type="number"  id="soute2" name="soute-inp2">
+					
+			<label>Soute 6</label>
+			<input type="number"  id="soute6" name="soute-inp6">
+			</div>
 	</div>
 
 
+	<div class="soute">
+		<button type="submit" onclick="typeAvion()">Récupérer</button>
+		<button  type="submit" onclick="location.reload()">Rafraîchir</button>
+	</div>
+	
 
+	
+	<div class="affiche-res">
+		<h2>Résultat</h2>	
+		
+			<div class="nom-soute">
+				<div class="titre-soute">
+					<h4 class="titre">Total :</h4>
+				</div>	
+				<div class="affiche">
+					<div id="resultat">
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
 		<script src="script/script.js"></script>
 </body>
 </html>

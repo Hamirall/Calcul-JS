@@ -1,4 +1,80 @@
-p {
-	font-weight: 20px;
+h1 {
+	text-align: center;
+}
 
+h2 {
+	text-align: center;
+}
+
+.aligne-box {
+	padding-top: 2%;
+	text-align: center;
+}
+
+.soute {
+	padding-top: 3%;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+.centre {
+	padding-top: 2%;
+	text-align: center;
+} 
+
+.adjust {
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 0%;
+	text-align: center;
+}
+
+.adjust label {
+	padding-right: 0.5%;
+	padding-left: 2%;
+
+}
+
+.centre {
+	text-align: center;
+}
+
+.titre-soute {
+	width: 50%;
+	float: left;
+}
+
+.titre {
+	padding-top: 3%;
+	float: right;
+	padding-bottom: 1%;
+}
+
+.affiche {
+	padding-top: 1.5%;
+	padding-left: 1%;
+	width: 50%;
+	float: left;
+	font-size: 20px;
+}
+
+.titre2 {
+	float: right;
+}
+
+.nom-soute2 {
+	width: 50%;	
+
+}
+
+.affiche2 {
+	padding-top: 1.5%;
+	padding-left: 1%;
+	width: 50%;
+	float: left;
+	font-size: 20px;
+}
+
+.empty {
+	width: 50%;
 }
