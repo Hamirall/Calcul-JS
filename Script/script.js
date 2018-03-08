@@ -109,11 +109,14 @@ function recupNbr(recup_soute1,recup_soute2,recup_soute6,soute1,soute2,soute6) {
 
 function affichage (resultat, soute1, soute2, soute6) {
 
+	var affiche_soute1 = '<p>soute1</p>';
+	document.getElementById('soute1').innerHTML=soute1;
+
 	var affiche_resul = '<p>resultat</p>';
 	document.getElementById('resultat').innerHTML=resultat;
 
-	var affiche_soute1 = '<p>soute1</p>';
-	document.getElementById('soute1').innerHTML=soute1;
+	
+
 
 	// var affiche_soute2 = '<p>soute2</p>';
 	// document.getElementById('soute2').innerHTML=soute2;

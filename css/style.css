@@ -45,36 +45,14 @@ h2 {
 }
 
 .titre {
-	padding-top: 3%;
-	float: right;
-	padding-bottom: 1%;
-}
-
-.affiche {
-	padding-top: 1.5%;
-	padding-left: 1%;
-	width: 50%;
-	float: left;
-	font-size: 20px;
-}
-
-.titre2 {
 	float: right;
 }
 
-.nom-soute2 {
-	width: 50%;	
-
+.resultat-aff {
+	text-align: center;font-size:  
+	width: 100%;
 }
 
-.affiche2 {
-	padding-top: 1.5%;
-	padding-left: 1%;
-	width: 50%;
-	float: left;
-	font-size: 20px;
-}
-
-.empty {
-	width: 50%;
+#resultat {
+	font-size: 20px; 
 }
